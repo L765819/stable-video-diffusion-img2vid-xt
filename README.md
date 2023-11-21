@@ -1,7 +1,33 @@
 ---
-# For reference on model card metadata, see the spec: https://github.com/huggingface/hub-docs/blob/main/modelcard.md?plain=1
-# Doc / guide: https://huggingface.co/docs/hub/model-cards
-{}
+license: apache-2.0
+datasets:
+- togethercomputer/RedPajama-Data-V2
+- fka/awesome-chatgpt-prompts
+- HuggingFaceH4/ultrachat_200k
+- laion/dalle-3-dataset
+- vivym/midjourney-messages
+- THUDM/AgentInstruct
+- stingning/ultrachat
+language:
+- ko
+- en
+- es
+- ig
+- ja
+- jv
+- ta
+- ru
+- de
+- ht
+- pa
+metrics:
+- character
+- cer
+library_name: adapter-transformers
+pipeline_tag: text-classification
+tags:
+- art
+- music
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
@@ -78,6 +104,3 @@ The model is intended for research purposes only.
 ## How to Get Started with the Model
 
 Check out https://github.com/Stability-AI/generative-models
-
-
-
