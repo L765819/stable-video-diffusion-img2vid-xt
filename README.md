@@ -3,6 +3,15 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-nc-community
 license_link: LICENSE
+datasets:
+- fka/awesome-chatgpt-prompts
+language:
+- aa
+metrics:
+- accuracy
+library_name: adapter-transformers
+tags:
+- art
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
