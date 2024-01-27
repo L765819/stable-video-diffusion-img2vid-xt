@@ -3,6 +3,11 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-nc-community
 license_link: LICENSE
+language:
+- es
+metrics:
+- accuracy
+library_name: adapter-transformers
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
