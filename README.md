@@ -5,6 +5,14 @@ license_name: stable-video-diffusion-nc-community
 license_link: LICENSE
 ---
 
+<table style="width: 100%; border: solid red 2px; background-color: #faa; color: red; text-align: center; border-radius: 10px;">
+   <tbody>
+      <tr>
+         <td><big><b>Deprecated model</b></big><br/>Use <code>stabilityai/stable-video-diffusion-img2vid-xt-1-1</code> instead</td>
+      </tr>
+   </tbody>
+</table>
+
 # Stable Video Diffusion Image-to-Video Model Card
 
 <!-- Provide a quick summary of what the model is/does. -->
