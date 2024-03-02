@@ -3,6 +3,15 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-nc-community
 license_link: LICENSE
+datasets:
+- teknium/OpenHermes-2.5
+language:
+- uk
+metrics:
+- character
+library_name: fasttext
+tags:
+- climate
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
