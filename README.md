@@ -3,6 +3,13 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-nc-community
 license_link: LICENSE
+datasets:
+- HuggingFaceTB/cosmopedia
+language:
+- tr
+metrics:
+- bertscore
+library_name: adapter-transformers
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
