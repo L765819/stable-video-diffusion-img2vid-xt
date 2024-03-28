@@ -3,6 +3,15 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-nc-community
 license_link: LICENSE
+datasets:
+- HuggingFaceTB/cosmopedia
+language:
+- en
+metrics:
+- character
+library_name: diffusers
+tags:
+- medical
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
