@@ -3,6 +3,15 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-nc-community
 license_link: LICENSE
+datasets:
+- microsoft/orca-math-word-problems-200k
+language:
+- ab
+metrics:
+- accuracy
+library_name: adapter-transformers
+tags:
+- biology
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
