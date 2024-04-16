@@ -3,6 +3,16 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-nc-community
 license_link: LICENSE
+datasets:
+- HuggingFaceTB/cosmopedia
+- m-a-p/COIG-CQIA
+language:
+- ab
+metrics:
+- accuracy
+library_name: adapter-transformers
+tags:
+- chemistry
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
