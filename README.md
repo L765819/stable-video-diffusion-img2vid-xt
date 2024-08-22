@@ -3,6 +3,18 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-community
 license_link: LICENSE.md
+datasets:
+- argilla/magpie-ultra-v0.1
+- BAAI/Infinity-Instruct
+language:
+- ru
+metrics:
+- character
+- accuracy
+library_name: diffusers
+tags:
+- art
+- climate
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
