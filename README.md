@@ -3,6 +3,20 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-community
 license_link: LICENSE.md
+datasets:
+- fka/awesome-chatgpt-prompts
+language:
+- en
+metrics:
+- bleu
+base_model: black-forest-labs/FLUX.1-dev
+library_name: flair
+---
+---images
+pipeline_tag: image-to-video
+license: other
+license_name: stable-video-diffusion-community
+license_link: LICENSE.md
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
