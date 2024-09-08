@@ -3,6 +3,16 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-community
 license_link: LICENSE.md
+datasets:
+- NousResearch/hermes-function-calling-v1
+language:
+- af
+metrics:
+- accuracy
+base_model: black-forest-labs/FLUX.1-dev
+library_name: asteroid
+tags:
+- chemistry
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
