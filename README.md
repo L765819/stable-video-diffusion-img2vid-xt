@@ -3,6 +3,16 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-community
 license_link: LICENSE.md
+datasets:
+- fka/awesome-chatgpt-prompts
+language:
+- aa
+metrics:
+- bertscore
+base_model: mattshumer/Reflection-Llama-3.1-70B
+library_name: adapter-transformers
+tags:
+- biology
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
