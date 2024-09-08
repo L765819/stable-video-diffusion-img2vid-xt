@@ -3,6 +3,16 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-community
 license_link: LICENSE.md
+datasets:
+- fka/awesome-chatgpt-prompts
+language:
+- ab
+metrics:
+- brier_score
+base_model: black-forest-labs/FLUX.1-dev
+library_name: adapter-transformers
+tags:
+- not-for-all-audiences
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
