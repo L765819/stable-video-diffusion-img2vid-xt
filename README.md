@@ -3,6 +3,7 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-community
 license_link: LICENSE.md
+library_name: asteroid
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
