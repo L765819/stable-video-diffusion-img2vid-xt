@@ -3,6 +3,14 @@ pipeline_tag: image-to-video
 license: other
 license_name: stable-video-diffusion-community
 license_link: LICENSE.md
+language:
+- aa
+metrics:
+- accuracy
+base_model:
+- stabilityai/stable-diffusion-3.5-large
+new_version: stabilityai/stable-diffusion-3.5-large
+library_name: diffusers
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
